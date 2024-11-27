@@ -1,9 +1,9 @@
 # password_manager
 Password Manager using Python and MySQL
 
-## Installation
+# Installation
 
-- Manual
+## 1. Manual Installation
 
 ### MySQL Commands to Set Up the Database and Tables
 
@@ -30,3 +30,5 @@ CREATE TABLE user_platforms (
     FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
 );
 ```
+
+## 2. Using Docker
