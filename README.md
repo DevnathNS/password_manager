@@ -7,7 +7,7 @@ Password Manager using Python and MySQL
 
 ### MySQL Commands to Set Up the Database and Tables
 
-```
+```sql
 -- Create the database
 CREATE DATABASE password_manager;
 
@@ -33,7 +33,7 @@ CREATE TABLE user_platforms (
 
 ### Configure MySQL User and Privileges
 
-```
+```sql
 CREATE USER 'pm_user'@'localhost' IDENTIFIED BY 'secure_password';
 
 GRANT ALL PRIVILEGES ON password_manager.* TO 'pm_user'@'localhost';
