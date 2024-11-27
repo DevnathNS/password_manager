@@ -8,20 +8,16 @@ Password Manager using Python and MySQL
 ### MySQL Commands to Set Up the Database and Tables
 
 ```sql
--- Create the database
 CREATE DATABASE password_manager;
 
--- Use the created database
 USE password_manager;
 
--- Create the `users` table
 CREATE TABLE users (
     id INT AUTO_INCREMENT PRIMARY KEY,
     username VARCHAR(50) NOT NULL UNIQUE,
     master_password VARCHAR(64) NOT NULL
 );
 
--- Create the `user_platforms` table
 CREATE TABLE user_platforms (
     id INT AUTO_INCREMENT PRIMARY KEY,
     user_id INT NOT NULL,
