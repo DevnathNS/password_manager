@@ -191,10 +191,10 @@ def check_password(input_password, stored_hashed_password):
 # database configuration
 
 db_config = {
-    'host': 'localhost',
-    'user': 'root',
-    'password': 'root',
-    'database': '<your password>'
+    'host': 'your hostname',
+    'user': 'your username',
+    'password': 'your password',
+    'database': '<your database name>'
 }
 
 print("""
