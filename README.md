@@ -3,8 +3,6 @@ Password Manager using Python and MySQL
 
 # Installation
 
-## 1. Manual Installation
-
 ### MySQL Commands to Set Up the Database and Tables
 
 ```sql
@@ -52,5 +50,7 @@ db_config = {
 ```bash
 pip install -r requirements.txt
 ```
-
-## 2. Using Docker
+# Usage
+```bash
+python3 app.py
+```
