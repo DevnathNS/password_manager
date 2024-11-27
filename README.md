@@ -37,4 +37,15 @@ GRANT ALL PRIVILEGES ON password_manager.* TO 'pm_user'@'localhost';
 FLUSH PRIVILEGES;
 ```
 
+### Update db_config in Your Python Code
+```python
+db_config = {
+    'host': 'localhost',
+    'user': 'pm_user',
+    'password': 'secure_password',
+    'database': 'password_manager'
+}
+
+```
+
 ## 2. Using Docker
