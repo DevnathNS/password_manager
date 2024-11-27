@@ -31,4 +31,14 @@ CREATE TABLE user_platforms (
 );
 ```
 
+### Configure MySQL User and Privileges
+
+```
+CREATE USER 'pm_user'@'localhost' IDENTIFIED BY 'secure_password';
+
+GRANT ALL PRIVILEGES ON password_manager.* TO 'pm_user'@'localhost';
+
+FLUSH PRIVILEGES;
+```
+
 ## 2. Using Docker
