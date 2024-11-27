@@ -48,4 +48,9 @@ db_config = {
 
 ```
 
+### Install dependencies
+```bash
+pip install -r requirements.txt
+```
+
 ## 2. Using Docker
